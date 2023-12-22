@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, CONTATO">
+    <meta name="description" content="Um simples é moderno Formulario de Contato em 2023">
+    <title>Formulario de Contato</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <!--DIV CLASS CONTAINER DA WEB-->
+    <div class="container">
+        <!--COMEÇANDO O FORMULARIO-->
+        <div class="Form">
+            <!--CABEÇALHO-->
+            <div class="Header">
+                <h1>Contato</h1>
+            </div>
+
+            <!--CORPO DA WEB-->
+            <div class="Main">
+                <form action="#" method="post" name="form1" id="form1">
+                    <div class="form-inf">
+                        <label for="nome">Nome </label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                    </div>
+
+                    <div class="form-inf">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="form-inf">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="20" rows="5" required placeholder="o que deseja dizer?" maxlength="2500"></textarea>
+                    </div>
+                    <!--BOTÃO DE ENVIAR-->
+                    <div class="button-form">
+                        <button type="submit" form="form1">ENTRAR</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
